@@ -56,7 +56,8 @@ To access PoliSysRMS and begin using its features, follow these steps:
    cd path/to/polisysrms
 
 6. Run the following command to execute the project:
-    ```python polisysrms.py
+    ```bash
+    python polisysrms.py
 
 
 
