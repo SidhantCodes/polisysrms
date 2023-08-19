@@ -58,9 +58,6 @@ To access PoliSysRMS and begin using its features, follow these steps:
 6. Run the following command to execute the project:
     ```bash
     python polisysrms.py
-
-
-
 ## Contact Me
 Reach me out at gmail: mishrasidhant01@gmail.com  or linkedIn: https://www.linkedin.com/in/smishra0110/
 
