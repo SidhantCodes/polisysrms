@@ -70,8 +70,8 @@ class Loginwin:
 
         # loginbutton
         loginbttn = Button(frame, command=self.login, text="Login", font=("e Enougha", 15, "bold"), bd=3,
-                           relief=GROOVE, cursor="hand2",
-                           fg="#147145", bg="#e9efed", activeforeground="#147145", activebackground="#e9efed")
+                        relief=GROOVE, cursor="hand2",
+                        fg="#147145", bg="#e9efed", activeforeground="#147145", activebackground="#e9efed")
         loginbttn.place(x=110, y=300, width=110, height=40)
 
         # registernwebtn
@@ -492,12 +492,10 @@ class Criminal:
         caseentry.grid(row=0, column=1, padx=2, sticky=W)
 
         # Criminal No
-        lbl_criminal_no = Label(upper_frame, text="Criminal No: ", font=('arial', 12, 'bold'), fg="white",
-                                bg="#e77357")
+        lbl_criminal_no = Label(upper_frame, text="Criminal No: ", font=('arial', 12, 'bold'), fg="white", bg="#e77357")
         lbl_criminal_no.grid(row=0, column=2, sticky=W, padx=2, pady=5)
 
-        lbl_criminal_entry = ttk.Entry(upper_frame, textvariable=self.var_criminal_no, width=22,
-                                       font=("arial", 11, "bold"))
+        lbl_criminal_entry = ttk.Entry(upper_frame, textvariable=self.var_criminal_no, width=22, font=("arial", 11, "bold"))
         lbl_criminal_entry.grid(row=0, column=3, sticky=W, padx=2, pady=7)
 
         # Criminal name
@@ -508,8 +506,7 @@ class Criminal:
         txt_name.grid(row=1, column=1, padx=2, pady=7)
 
         # Arrest Date
-        lbl_arrestDate = Label(upper_frame, font=('arial', 12, 'bold'), text="Arrest Date: ", fg='white',
-                               bg="#e77357")
+        lbl_arrestDate = Label(upper_frame, font=('arial', 12, 'bold'), text="Arrest Date: ", fg='white', bg="#e77357")
         lbl_arrestDate.grid(row=2, column=0, sticky=W, padx=2, pady=7)
 
         txt_arrestDate = ttk.Entry(upper_frame, textvariable=self.var_arrest_date, width=22, font=("arial", 11, "bold"))
@@ -554,11 +551,9 @@ class Criminal:
         txt_crimeType = ttk.Entry(upper_frame, textvariable=self.var_crime_type, width=22, font=("arial", 11, "bold"))
         txt_crimeType.grid(row=0, column=5, padx=2, pady=7)
         # Guadrian's Name
-        lbl_guardianName = Label(upper_frame, font=("arial", 12, "bold"), text="Father's Name: ", bg='#e77357',
-                                 fg='white')
+        lbl_guardianName = Label(upper_frame, font=("arial", 12, "bold"), text="Father's Name: ", bg='#e77357', fg='white')
         lbl_guardianName.grid(row=1, column=4, sticky=W, padx=2, pady=7)
-        txt_guardianName = ttk.Entry(upper_frame, textvariable=self.var_father_name, width=22,
-                                     font=("arial", 11, "bold"))
+        txt_guardianName = ttk.Entry(upper_frame, textvariable=self.var_father_name, width=22, font=("arial", 11, "bold"))
         txt_guardianName.grid(row=1, column=5, padx=2, pady=7)
 
         # gender
